@@ -1,0 +1,22 @@
+structure
+
+- div that holds
+    - left div with key buttons
+        - nine buttons
+    - right div with the rest
+        - header with 
+            - text and logo
+        - power button
+        - p display
+        - regulator bar
+        - bank button
+
+style
+
+- middle gray background
+- light gray box
+- dark gray buttons
+
+qwe
+
+logic

@@ -1,0 +1,33 @@
+html
+
+- div that holds editor and previewer
+    - div editor
+        - header
+            - h1
+            - button
+        - text area
+    - div previewer
+        - header
+            - h1
+            - button
+        - dynamic div
+
+css
+
+- three green color variables
+- code: 
+    - reserved words color
+    - function name color
+    - string color
+    - syntax such as semicolon and brackets
+    - operator coloring
+
+functionality
+
+- real time updating 
+    - rules:
+        - line starts with
+        - whole line is
+        - inline
+    - maybe: rules auf functions aufteilen
+

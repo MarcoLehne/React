@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+#editor{
+  display:flex;
+  flex-direction:column;
+  min-width:500px;
+  max-width:500px;
+  margin:auto;
+}
+
+
+header {
+  display:flex;
+  flex-direction:row;
+  width:100%;
+}
+
+#logo-text {
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+}

@@ -1,0 +1,110 @@
+:root{
+  --main-color: #282c34;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.QuoteAndDesigner{
+  min-width: 500px;
+  max-width: 500px;
+}
+
+#quote-box{
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+#text, #author{
+  color: var(--main-color);
+}
+
+#author{
+  text-align:right; 
+  font-size:15px;
+  font-weight: lighter;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.Buttons{
+  display:flex;
+  justify-content: space-between;
+  width:100%
+}
+
+button{
+  border: none;
+  border-radius: 10px;
+  
+}
+
+#new-quote{
+  font-size:15px;
+  font-weight: lighter;
+  padding:10px;
+}
+
+a.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  color: initial;
+  width:50px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+}
+
+a.button:hover, a.button#tweet-icon:hover {
+  text-decoration: none;
+}
+
+
+
+#app-designer, button{
+  color:white;
+}
+/* 
+.App, button{
+  background-color: var(--main-color);
+} */
